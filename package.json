@@ -1,0 +1,16 @@
+{
+  "name": "plugin-rsc-discovery-round-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "node repro.mjs repro",
+    "control": "node repro.mjs control"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "6.3.0",
+    "@vitejs/plugin-rsc": "0.5.39",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "vite": "8.3.8"
+  }
+}
