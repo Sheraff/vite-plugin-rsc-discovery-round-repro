@@ -1,6 +1,6 @@
 # @vitejs/plugin-rsc: a server reference first seen by the client build is missing from the RSC build
 
-Reproduction for (issue link once filed).
+Reproduction for https://github.com/vitejs/vite-plugin-react/issues/1578.
 
 Plain `@vitejs/plugin-rsc`, no framework. A `'use server'` module that only the browser entry imports is first seen
 by the client build ([4/5]), after the RSC build ([3/5]). `vite build` exits 0; calling the action fails. Its result
